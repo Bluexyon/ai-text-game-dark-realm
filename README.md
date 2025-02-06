@@ -1,6 +1,6 @@
 # DARK REALM v0.1b
 
-This is a modular fantasy adventure Text game powered by AI (AI model I used Lumimaid-v0.2-8B)
+This is a modular fantasy adventure Text game powered by AI (Pretrained LLM I used Lumimaid-v0.2-8B)
 
 ## Installation
 To install this Program simply download provided Script files and install the necessary libaries.
@@ -8,7 +8,7 @@ To install this Program simply download provided Script files and install the ne
 - llama-cpp-python
 - For Hardware Acceleration only on Nvidea GPUs
     - Nvidea CUDA Toolkit 12.6 Update 3
-- AI model I used and recommend Lumimaid-v0.2-8B (I recommend Q4_K_M-imat) with 8gb VRAM
+- You need to add a pretrained AI model to a folder models on the project root, I used and recommend Lumimaid-v0.2-8B (I recommend Q4_K_M-imat) with 8gb VRAM
     https://huggingface.co/Lewdiculous/Lumimaid-v0.2-8B-GGUF-IQ-Imatrix
 
 ## Usage
@@ -25,6 +25,8 @@ CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python
 ```
 
 You need to have an expansion.context file in the expansions folder
+
+You need a folder called models on the root of the project with a pre trained LLM model of your choosing.
 
 then simply type the following in your Terminal:
 
