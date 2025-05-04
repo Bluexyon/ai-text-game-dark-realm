@@ -1,7 +1,7 @@
 from llama_cpp import Llama
 import random
 
-MODEL_PATH = 'ai-text-game/models/<path to model>'
+MODEL_PATH = 'models/<path to model>'
 
 llm = Llama(
     model_path=MODEL_PATH,
