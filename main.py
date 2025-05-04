@@ -7,7 +7,7 @@ summary = ""
 memorycycle = 0
 
 try:
-    with open('ai-text-game/expansions/expansion.context', 'r') as file:
+    with open('expansions/expansion.context', 'r') as file:
         line = file.readline()
         while line:
             #print(line.strip())  # `strip()` removes newline characters
